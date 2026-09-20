@@ -1,0 +1,88 @@
+﻿/* ==========================================================================
+   HoraJnana Design System Tokens (Material Design 3 + Vedic Palette)
+   ========================================================================== */
+
+:root {
+  /* Brand Palettes - Emerald Vedic Green & Celestial Gold */
+  --color-primary: #2E7D32;
+  --color-primary-hover: #256628;
+  --color-primary-light: #43A047;
+  --color-primary-container: #E8F5E9;
+  --color-on-primary-container: #0D3812;
+
+  --color-gold: #F59E0B;
+  --color-gold-light: #FDE68A;
+  --color-gold-glow: rgba(245, 158, 11, 0.18);
+
+  --color-accent: #0284C7;
+  --color-accent-container: #E0F2FE;
+
+  /* Neutrals (Light Mode Default) */
+  --bg-page: #F8FAF7;
+  --bg-surface: #FFFFFF;
+  --bg-surface-raised: #FFFFFF;
+  --bg-surface-variant: #EEF3EB;
+  --bg-surface-glass: rgba(255, 255, 255, 0.82);
+
+  --text-primary: #121A13;
+  --text-secondary: #4A5B4C;
+  --text-muted: #6B7D6E;
+  --text-inverse: #FFFFFF;
+
+  --border-light: rgba(46, 125, 50, 0.12);
+  --border-subtle: #E2EAE0;
+  --border-focus: #2E7D32;
+
+  /* Shadows & Elevations */
+  --shadow-sm: 0 2px 4px rgba(18, 26, 19, 0.04), 0 1px 2px rgba(18, 26, 19, 0.06);
+  --shadow-md: 0 4px 12px rgba(18, 26, 19, 0.08), 0 2px 6px rgba(18, 26, 19, 0.04);
+  --shadow-lg: 0 12px 32px rgba(18, 26, 19, 0.10), 0 4px 12px rgba(18, 26, 19, 0.05);
+  --shadow-glow: 0 0 24px rgba(46, 125, 50, 0.22);
+  --shadow-gold-glow: 0 0 28px rgba(245, 158, 11, 0.25);
+
+  /* Radii */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-kannada: 'Noto Sans Kannada', 'Inter', sans-serif;
+
+  /* Layout */
+  --max-width: 1200px;
+  --nav-height: 72px;
+  --transition-fast: 0.18s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme Support */
+[data-theme="dark"] {
+  --bg-page: #0D150E;
+  --bg-surface: #141E15;
+  --bg-surface-raised: #1A261B;
+  --bg-surface-variant: #1F2D20;
+  --bg-surface-glass: rgba(20, 30, 21, 0.85);
+
+  --text-primary: #F0F5EF;
+  --text-secondary: #BDCBD0;
+  --text-muted: #849687;
+  --text-inverse: #0D150E;
+
+  --border-light: rgba(76, 175, 80, 0.18);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+
+  --color-primary: #4CAF50;
+  --color-primary-hover: #66BB6A;
+  --color-primary-light: #81C784;
+  --color-primary-container: rgba(76, 175, 80, 0.18);
+  --color-on-primary-container: #A5D6A7;
+
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 18px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 16px 38px rgba(0, 0, 0, 0.60);
+  --shadow-glow: 0 0 30px rgba(76, 175, 80, 0.25);
+}

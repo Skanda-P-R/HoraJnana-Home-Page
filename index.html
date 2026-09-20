@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HoraJnana | Vedic Astrology Panchanga, Hora &amp; Kundali Companion</title>
+  
+  <!-- SEO & Meta -->
+  <meta name="description" content="HoraJnana is a precision Vedic Astrology platform offering real-time Hora countdowns, complete Panchanga limbs, multi-style Kundali charts, and Muhurta timings powered by Swiss Ephemeris. Available on Web and Android.">
+  <meta name="keywords" content="HoraJnana, Vedic Astrology, Panchanga, Hora, Muhurta, Kundali, Swiss Ephemeris, Vedic Horary, Dasha System">
+  <meta name="author" content="Skanda P R">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HoraJnana | Vedic Astrology &amp; Precision Panchanga Suite">
+  <meta property="og:description" content="Sub-arcsecond astrological precision, real-time Hora, multi-style Kundali, and zero privacy tracking. Available on Web and Google Play.">
+  <meta property="og:image" content="assets/feature-graphics.png">
+  <meta property="og:url" content="https://skanda-p-r.github.io/HoraJnana-Home-Page/">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Noto+Sans+Kannada:wght@400;600;700&amp;display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Site Header / Navigation
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-link" aria-label="HoraJnana Home">
+        <img src="assets/icon.png" alt="HoraJnana Logo" class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-title">HoraJnana</span>
+          <span class="brand-subtitle">Astrological Computing</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#showcase" class="nav-link">App Preview</a>
+        <a href="#technology" class="nav-link">Technology</a>
+        <a href="#security" class="nav-link">Security &amp; Privacy</a>
+        <a href="privacy.html" class="nav-link">Privacy Policy</a>
+        <a href="terms.html" class="nav-link">Terms</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <svg id="theme-icon-sun" viewBox="0 0 24 24" style="display: none;">
+            <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
+          </svg>
+          <svg id="theme-icon-moon" viewBox="0 0 24 24">
+            <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/>
+          </svg>
+        </button>
+
+        <!-- Web App Launch CTA -->
+        <a href="https://skanda-p-r.github.io/HoraJnana-Web-App/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <span>Launch Web App</span>
+          <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; fill: currentColor;">
+            <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Trigger -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open Navigation Menu">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-overlay" class="mobile-nav-overlay">
+    <div class="mobile-nav-drawer">
+      <div class="mobile-nav-header">
+        <div class="brand-link">
+          <img src="assets/icon.png" alt="HoraJnana Logo" style="width: 32px; height: 32px; border-radius: 8px;">
+          <span class="brand-title">HoraJnana</span>
+        </div>
+        <button id="mobile-drawer-close" class="mobile-menu-btn" aria-label="Close menu">
+          <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#products" class="mobile-nav-link">Products &amp; Apps</a></li>
+        <li><a href="#features" class="mobile-nav-link">Features</a></li>
+        <li><a href="#showcase" class="mobile-nav-link">App Preview</a></li>
+        <li><a href="#technology" class="mobile-nav-link">Technology &amp; Precision</a></li>
+        <li><a href="#security" class="mobile-nav-link">Security &amp; Privacy</a></li>
+        <li><a href="privacy.html" class="mobile-nav-link">Privacy Policy</a></li>
+        <li><a href="terms.html" class="mobile-nav-link">Terms of Service</a></li>
+      </ul>
+      <div style="margin-top: auto; display: flex; flex-direction: column; gap: 10px;">
+        <a href="https://skanda-p-r.github.io/HoraJnana-Web-App/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+          Launch Web App
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.hora.jnana" target="_blank" rel="noopener noreferrer" class="btn btn-play-store" style="justify-content: center;">
+          <svg viewBox="0 0 24 24">
+            <path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-.986V2.8a2.378 2.378 0 0 1 .609-.986zm11.242 11.245l2.096-2.096-11.75-6.784 9.654 8.88zm0 1.882l-9.654 8.88 11.75-6.784-2.096-2.096zm1.464-1.465l3.224 1.86a1.5 1.5 0 0 0 0-2.598l-3.224-1.86-1.059 1.299 1.059 1.299z"/>
+          </svg>
+          <div class="btn-play-store-text">
+            <span class="btn-play-store-sub">GET IT ON</span>
+            <span class="btn-play-store-main">Google Play</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       Hero Section
+       ========================================================================= -->
+  <section class="hero-section">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; fill: currentColor;">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+          </svg>
+          <span>Vedic Astrology Meets Precision Astronomy</span>
+        </div>
+
+        <h1 class="hero-title">
+          Timeless Vedic Knowledge, <br><span class="text-gradient">Astronomical Precision.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          HoraJnana is a professional astrological computing platform delivering real-time planetary Hora countdowns, complete Panchanga limbs, multi-style Kundali charts, and Muhurta timings — calculated with Swiss Ephemeris sub-arcsecond accuracy and zero cloud tracking.
+        </p>
+
+        <div class="hero-cta-group">
+          <!-- Launch Web App CTA -->
+          <a href="https://skanda-p-r.github.io/HoraJnana-Web-App/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 14px 28px; font-size: 1.05rem;">
+            <span>Launch Web App</span>
+            <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: currentColor;">
+              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+            </svg>
+          </a>
+
+          <!-- Google Play Store Button -->
+          <a href="https://play.google.com/store/apps/details?id=com.hora.jnana" target="_blank" rel="noopener noreferrer" class="btn-play-store" title="Get HoraJnana on Google Play">
+            <svg viewBox="0 0 24 24">
+              <path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-.986V2.8a2.378 2.378 0 0 1 .609-.986zm11.242 11.245l2.096-2.096-11.75-6.784 9.654 8.88zm0 1.882l-9.654 8.88 11.75-6.784-2.096-2.096zm1.464-1.465l3.224 1.86a1.5 1.5 0 0 0 0-2.598l-3.224-1.86-1.059 1.299 1.059 1.299z"/>
+            </svg>
+            <div class="btn-play-store-text">
+              <span class="btn-play-store-sub">GET IT ON</span>
+              <span class="btn-play-store-main">Google Play</span>
+            </div>
+          </a>
+
+          <!-- Open Source GitHub -->
+          <a href="https://github.com/Skanda-P-R/HoraJnana-Web-App" target="_blank" rel="noopener noreferrer" class="btn btn-outlined" title="View Source on GitHub">
+            <svg viewBox="0 0 24 24" style="width: 18px; height: 18px; fill: currentColor;">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+
+        <div class="hero-trust-row">
+          <div class="hero-trust-item">
+            <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+            <span>Swiss Ephemeris AGPL v3</span>
+          </div>
+          <div class="hero-trust-item">
+            <svg viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+            <span>AES-256 Encrypted</span>
+          </div>
+          <div class="hero-trust-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+            <span>Zero Cloud Telemetry</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual / Phone Mockup -->
+      <div class="hero-visual">
+        <!-- Floating Widget 1 -->
+        <div class="floating-stat-card card-left">
+          <div class="stat-icon-circle green">
+            <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-4.42-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          </div>
+          <div>
+            <div class="stat-info-title">Current Planetary Hora</div>
+            <div class="stat-info-val">Dynamic Live Countdown</div>
+          </div>
+        </div>
+
+        <!-- Phone Mockup -->
+        <div class="phone-mockup-wrap">
+          <div class="phone-notch"></div>
+          <img src="assets/screenshots/shot-home.jpg" alt="HoraJnana App Home Screen" class="phone-screen-img">
+        </div>
+
+        <!-- Floating Widget 2 -->
+        <div class="floating-stat-card card-right">
+          <div class="stat-icon-circle gold">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          </div>
+          <div>
+            <div class="stat-info-title">Vedic Precision</div>
+            <div class="stat-info-val">North • South • East Charts</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Trust & Metrics Strip
+       ========================================================================= -->
+  <section class="trust-bar">
+    <div class="container trust-grid">
+      <div class="trust-card">
+        <span class="trust-number">0.001°</span>
+        <span class="trust-label">Astronomical Accuracy</span>
+        <span class="trust-sub">Direct Swiss Ephemeris Planetary Ephemerides</span>
+      </div>
+      <div class="trust-card">
+        <span class="trust-number">3 Styles</span>
+        <span class="trust-label">Kundali Chart Engines</span>
+        <span class="trust-sub">South Indian, North Indian, East Indian</span>
+      </div>
+      <div class="trust-card">
+        <span class="trust-number">AES-256</span>
+        <span class="trust-label">Local File Security</span>
+        <span class="trust-sub">Client-side Web Crypto API encryption</span>
+      </div>
+      <div class="trust-card">
+        <span class="trust-number">100%</span>
+        <span class="trust-label">Privacy Preserving</span>
+        <span class="trust-sub">Zero telemetry, no ad SDKs, no trackers</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Products & Platforms
+       ========================================================================= -->
+  <section id="products" class="section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Product Ecosystem</span>
+        <h2 class="section-title">Built for Every Device &amp; Workflow</h2>
+        <p class="section-desc">
+          Whether you prefer a native Android experience, a zero-install Progressive Web App for iPhone Safari and Desktop, or direct integration with our open-source calculation backend.
+        </p>
+      </div>
+
+      <div class="product-grid">
+        <!-- Card 1: Web App PWA -->
+        <div class="product-card featured">
+          <span class="product-badge-pill green">Instant Web Access</span>
+          <h3 class="product-card-title">HoraJnana Web App (PWA)</h3>
+          <p class="product-card-desc">
+            A high-fidelity Progressive Web Application designed with zero frontend frameworks and zero bloat. Engineered for Safari on iPhone, iPad, Chrome, and desktop browsers.
+          </p>
+          <ul class="product-features-list">
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Instant load via GitHub Pages with offline Service Worker support</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Supports "Add to Home Screen" on iOS for full-screen native feel</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Full Material 3 theming (Green, Purple, Yellow, Blue, Red)</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Encrypted local file import &amp; export compatible with Android</span>
+            </li>
+          </ul>
+          <div class="product-card-actions">
+            <a href="https://skanda-p-r.github.io/HoraJnana-Web-App/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+              <span>Open Web Application</span>
+              <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; fill: currentColor;"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Android App -->
+        <div class="product-card">
+          <span class="product-badge-pill gold">Google Play Store</span>
+          <h3 class="product-card-title">HoraJnana for Android</h3>
+          <p class="product-card-desc">
+            The native Android edition of HoraJnana, fully optimized for smartphones and tablets with high-performance rendering, offline storage, and home-screen widgets.
+          </p>
+          <ul class="product-features-list">
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Available directly on Google Play (Package: <code>com.hora.jnana</code>)</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Hardware-accelerated SVG astrology chart rendering</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Automated sunrise, sunset, and daylight duration synchronization</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>AES encrypted birth database export to Android internal storage</span>
+            </li>
+          </ul>
+          <div class="product-card-actions">
+            <a href="https://play.google.com/store/apps/details?id=com.hora.jnana" target="_blank" rel="noopener noreferrer" class="btn-play-store" style="justify-content: center;">
+              <svg viewBox="0 0 24 24">
+                <path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-.986V2.8a2.378 2.378 0 0 1 .609-.986zm11.242 11.245l2.096-2.096-11.75-6.784 9.654 8.88zm0 1.882l-9.654 8.88 11.75-6.784-2.096-2.096zm1.464-1.465l3.224 1.86a1.5 1.5 0 0 0 0-2.598l-3.224-1.86-1.059 1.299 1.059 1.299z"/>
+              </svg>
+              <div class="btn-play-store-text">
+                <span class="btn-play-store-sub">GET IT ON</span>
+                <span class="btn-play-store-main">Google Play</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Backend REST API -->
+        <div class="product-card">
+          <span class="product-badge-pill green">Developer &amp; Engine</span>
+          <h3 class="product-card-title">HoraJnana REST API</h3>
+          <p class="product-card-desc">
+            A Python and Swiss Ephemeris microservice providing accurate ephemerides calculations, Dasha hierarchy timelines, and astronomical coordinate transformations.
+          </p>
+          <ul class="product-features-list">
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Powered by Swiss Ephemeris library by Astrodienst AG</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Lahiri, Raman, Krishnamurti, and Fagan-Bradley Ayanamsa</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Generates high-resolution vector SVGs for Kundali charts</span>
+            </li>
+            <li class="product-feature-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Open-source under GNU Affero General Public License v3 (AGPL)</span>
+            </li>
+          </ul>
+          <div class="product-card-actions">
+            <a href="https://github.com/Skanda-P-R/HoraJnana-REST-API" target="_blank" rel="noopener noreferrer" class="btn btn-outlined btn-full">
+              <span>View API Repository</span>
+              <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; fill: currentColor;"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Core Features Section
+       ========================================================================= -->
+  <section id="features" class="section" style="background-color: var(--bg-surface-variant);">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Key Capabilities</span>
+        <h2 class="section-title">Everything You Need for Vedic Horary</h2>
+        <p class="section-desc">
+          Crafted specifically for Vedic astrologers, researchers, and practitioners who require exact celestial timings and zero latency.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-4.42-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Live Planetary Hora Countdown</h3>
+          <p class="feature-card-desc">
+            Real-time tracking of the active Hora with remaining seconds and minutes. Automatically triggers updates when the ruling planetary hour transitions.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Complete 5 Panchanga Limbs</h3>
+          <p class="feature-card-desc">
+            Exact ending moments for Tithi, Nakshatra, Yoga, Karana, and Vara. Accompanied by full Vedic calendar elements: Samvatsara, Ayana, Rutu, Masa, and Paksha.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Interactive Kundali Engine</h3>
+          <p class="feature-card-desc">
+            Toggle between South Indian, North Indian, and East Indian visual chart conventions. Explore planetary degrees, Moon Nakshatra, and retrograde indicators.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z"/></svg>
+          </div>
+          <h3 class="feature-card-title">3-Level Dasha Hierarchy</h3>
+          <p class="feature-card-desc">
+            Hierarchical drill-down through Vimshottari Dasha periods: Mahadasha, Antardasha, and Pratyantardasha, with live balance calculations and breadcrumb navigation.
+          </p>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Precise Muhurta Periods</h3>
+          <p class="feature-card-desc">
+            Accurate calculations for Rahu Kalam, Yamaganda, Gulika, and Abhijit Muhurta based on dynamic sunrise and sunset coordinates for the user's specific location.
+          </p>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Bilingual English &amp; Kannada</h3>
+          <p class="feature-card-desc">
+            Complete high-fidelity localization. Toggle instantly between English and Kannada (ಕನ್ನಡ) with authentic Vedic terminology rendered natively in Noto Sans Kannada.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Screenshot Gallery Showcase
+       ========================================================================= -->
+  <section id="showcase" class="section">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Visual Walkthrough</span>
+        <h2 class="section-title">Experience the Interface</h2>
+        <p class="section-desc">
+          Crafted with Google Material Design 3 guidelines for an uncluttered, distraction-free astrological study experience.
+        </p>
+      </div>
+
+      <div class="showcase-wrapper">
+        <div class="showcase-tabs">
+          <button class="showcase-tab-btn active" data-shot="shot-home.jpg" data-title="Intuitive Live Dashboard" data-desc="The main command center provides immediate awareness of the current planetary hora, remaining time, today's tithi, sunrise/sunset, and quick navigation to all astrological limbs.">Dashboard</button>
+          <button class="showcase-tab-btn" data-shot="shot-hora.jpg" data-title="12-Hour Day &amp; Night Hora Schedule" data-desc="View the complete order of 24 horas for both day and night sessions. The active hora is vividly highlighted with exact start and end timestamps.">Hora Timings</button>
+          <button class="showcase-tab-btn" data-shot="shot-panchanga.jpg" data-title="Comprehensive Vedic Panchanga" data-desc="Complete breakdown of Tithi, Vara, Nakshatra, Yoga, and Karana with exact progression percentages, Vedic Samvatsara calendar, and lunar month phases.">Panchanga</button>
+          <button class="showcase-tab-btn" data-shot="shot-kundali.jpg" data-title="Multi-Style Visual Kundali Charts" data-desc="Seamlessly switch between North Indian, South Indian, and East Indian chart conventions with planetary degrees, house alignments, and retrograde markings.">Kundali Charts</button>
+          <button class="showcase-tab-btn" data-shot="shot-dasha.jpg" data-title="3-Level Dasha Breakdown" data-desc="Explore Vimshottari Mahadasha, Antardasha, and Pratyantardasha timelines with hierarchical breadcrumbs and exact planetary dasha balances.">Dasha System</button>
+          <button class="showcase-tab-btn" data-shot="shot-settings.jpg" data-title="Material 3 Customization &amp; Settings" data-desc="Customize your visual experience with 5 curated color palettes (Green, Purple, Yellow, Blue, Red), Light/Dark theme modes, and custom Ayanamsa selections.">Themes &amp; Settings</button>
+        </div>
+
+        <div class="showcase-slider-container">
+          <div class="showcase-info">
+            <span class="showcase-tag">App Screenshot</span>
+            <h3 id="showcase-headline" class="showcase-headline">Intuitive Live Dashboard</h3>
+            <p id="showcase-body" class="showcase-body">
+              The main command center provides immediate awareness of the current planetary hora, remaining time, today's tithi, sunrise/sunset, and quick navigation to all astrological limbs.
+            </p>
+            <ul class="showcase-bullet-list">
+              <li class="showcase-bullet-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Live automatic polling every minute</span>
+              </li>
+              <li class="showcase-bullet-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Single-tap location override from global database</span>
+              </li>
+              <li class="showcase-bullet-item">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Zero advertisements, clean typography</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="showcase-frame">
+            <div class="showcase-img-box">
+              <img id="showcase-main-img" src="assets/screenshots/shot-home.jpg" alt="HoraJnana Dashboard Screen">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Technology & Precision Architecture
+       ========================================================================= -->
+  <section id="technology" class="section" style="background-color: var(--bg-surface-variant);">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Engineering Foundation</span>
+        <h2 class="section-title">Built on Trusted Astronomical Standards</h2>
+        <p class="section-desc">
+          HoraJnana bridges thousands of years of classical Indian astronomical literature with modern computational accuracy and cryptography.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Swiss Ephemeris Core</h3>
+          <p class="feature-card-desc">
+            Powered by the ephemeris library developed by Astrodienst AG, based on NASA Jet Propulsion Laboratory (JPL) planetary models. Licensed under GNU AGPL v3.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Web Crypto API &amp; AES-GCM</h3>
+          <p class="feature-card-desc">
+            Kundali birth files are encrypted on the client side using AES-GCM 256-bit keys. Your personal birth dates, times, and coordinates are never stored unencrypted.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          </div>
+          <h3 class="feature-card-title">Cross-Platform Sync</h3>
+          <p class="feature-card-desc">
+            Encrypted chart JSON files can be transferred seamlessly between the native Android app and the Web App with full bidirectional compatibility.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Security & Google OAuth Transparency Banner
+       ========================================================================= -->
+  <section id="security" class="section">
+    <div class="container">
+      <div class="security-card">
+        <div class="security-grid">
+          <div>
+            <h2 class="security-title">Strict Privacy &amp; Google OAuth Compliance</h2>
+            <p class="security-desc">
+              HoraJnana was built around the principle that astrological data and location coordinates are private. We comply strictly with Google API Services User Data Policy, including the Limited Use requirements.
+            </p>
+            <ul class="security-bullets">
+              <li class="security-bullet">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>GPS used on-device only for sunrise/sunset math</span>
+              </li>
+              <li class="security-bullet">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>No real-time location sent or saved to remote databases</span>
+              </li>
+              <li class="security-bullet">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Anonymous device UUID for session security</span>
+              </li>
+              <li class="security-bullet">
+                <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                <span>Zero data sharing with external advertising brokers</span>
+              </li>
+            </ul>
+            <div class="security-links">
+              <a href="privacy.html" class="btn btn-white">Read Full Privacy Policy</a>
+              <a href="terms.html" class="btn btn-outlined" style="color: #FFFFFF; border-color: rgba(255, 255, 255, 0.4);">Terms of Service</a>
+            </div>
+          </div>
+
+          <div class="security-box-badge">
+            <div class="security-badge-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+            </div>
+            <h4 class="security-box-title">Privacy Guaranteed</h4>
+            <p class="security-box-text">
+              We never sell or commercialize user data. All calculations and stored profiles belong solely to you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FAQ Section
+       ========================================================================= -->
+  <section class="section" style="background-color: var(--bg-surface-variant);">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag">Frequently Asked Questions</span>
+        <h2 class="section-title">Common Inquiries</h2>
+        <p class="section-desc">
+          Learn more about how HoraJnana handles calculations, data privacy, and multi-device access.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <!-- FAQ 1 -->
+        <div class="faq-item active">
+          <button class="faq-question-btn">
+            <span>Why does HoraJnana require location permission?</span>
+            <svg class="faq-arrow" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            Vedic astrology calculations (such as Sunrise, Sunset, Hora start/end times, Ascendant/Lagna, and Muhurta windows) depend directly on geographic latitude, longitude, and elevation. HoraJnana computes these values locally using on-device ephemerides or ephemeral API requests. Your real-time GPS coordinates are never stored permanently or tracked on our servers. You can also bypass GPS entirely by choosing a manual city location.
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How is user authentication and Google OAuth handled?</span>
+            <svg class="faq-arrow" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            HoraJnana uses an anonymous, cryptographically generated device UUID to provide authenticated API access. For users signing in or linking their accounts via Google OAuth, only basic profile information (such as user verification and email for profile sync) is accessed in strict compliance with the Google API Services User Data Policy, including Limited Use requirements. We never request sensitive or unnecessary permissions.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Can I install HoraJnana on my iPhone or iPad?</span>
+            <svg class="faq-arrow" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            Yes! HoraJnana is built as a full Progressive Web App (PWA). Open <code>https://skanda-p-r.github.io/HoraJnana-Web-App/</code> in Safari on your iPhone or iPad, tap the Share button at the bottom, and select "Add to Home Screen". The app will appear on your iOS home screen and launch in standalone full-screen mode with safe-area support for Dynamic Island and notched devices.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How accurate are the planetary and astrological calculations?</span>
+            <svg class="faq-arrow" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            HoraJnana consumes the Swiss Ephemeris (Astrodienst AG), which is recognized as the world standard in astrological precision, accurate to within 0.001 arcseconds against NASA JPL DE431/DE406 numerical integrations. It supports multiple Ayanamsas including Lahiri (Chitra Paksha), BV Raman, Krishnamurti (KP), and Fagan-Bradley.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How do I delete my data or reset my device session?</span>
+            <svg class="faq-arrow" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+          </button>
+          <div class="faq-answer">
+            In the application Settings screen, you can tap "Reset Cache", "Reset Settings", or "Logout" at any time. This immediately wipes all cached ephemerides, saved chart profiles, and authorization tokens stored on your device.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-link">
+            <img src="assets/icon.png" alt="HoraJnana Logo" class="brand-logo">
+            <div class="brand-text">
+              <span class="brand-title">HoraJnana</span>
+              <span class="brand-subtitle">Vedic Astrological Computing</span>
+            </div>
+          </div>
+          <p class="footer-brand-desc">
+            A high-precision Vedic astrological computing platform engineered with Swiss Ephemeris accuracy and client-side encryption.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Applications</h4>
+          <ul class="footer-nav-list">
+            <li><a href="https://skanda-p-r.github.io/HoraJnana-Web-App/" target="_blank" rel="noopener noreferrer" class="footer-link">HoraJnana Web App</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.hora.jnana" target="_blank" rel="noopener noreferrer" class="footer-link">Google Play Store App</a></li>
+            <li><a href="https://github.com/Skanda-P-R/HoraJnana-REST-API" target="_blank" rel="noopener noreferrer" class="footer-link">Backend REST API</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Legal &amp; Compliance</h4>
+          <ul class="footer-nav-list">
+            <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+            <li><a href="terms.html" class="footer-link">Terms of Service</a></li>
+            <li><a href="privacy.html#oauth" class="footer-link">Google OAuth Disclosures</a></li>
+            <li><a href="privacy.html#location" class="footer-link">Location Data Policy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Open Source</h4>
+          <ul class="footer-nav-list">
+            <li><a href="https://github.com/Skanda-P-R/HoraJnana-Web-App" target="_blank" rel="noopener noreferrer" class="footer-link">Web App Repository</a></li>
+            <li><a href="https://github.com/Skanda-P-R/HoraJnana-REST-API" target="_blank" rel="noopener noreferrer" class="footer-link">REST API Repository</a></li>
+            <li><a href="https://www.astro.com/swisseph/" target="_blank" rel="noopener noreferrer" class="footer-link">Swiss Ephemeris (Astrodienst)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 HoraJnana &amp; Skanda P R. All rights reserved. Open-source core under GNU AGPL v3.</p>
+        <div class="footer-legal-links">
+          <a href="privacy.html" class="footer-link">Privacy</a>
+          <a href="terms.html" class="footer-link">Terms</a>
+          <a href="https://github.com/Skanda-P-R" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Interactive Scripts (Theme Toggle, Showcase Tabs, FAQ, Mobile Menu)
+       ========================================================================= -->
+  <script>
+    // Theme Toggle
+    const themeToggleBtn = document.getElementById('theme-toggle-btn');
+    const sunIcon = document.getElementById('theme-icon-sun');
+    const moonIcon = document.getElementById('theme-icon-moon');
+    const htmlEl = document.documentElement;
+
+    function applyTheme(theme) {
+      htmlEl.setAttribute('data-theme', theme);
+      localStorage.setItem('horajnana_theme', theme);
+      if (theme === 'dark') {
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
+      } else {
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
+      }
+    }
+
+    const savedTheme = localStorage.getItem('horajnana_theme') || 
+      (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    applyTheme(savedTheme);
+
+    themeToggleBtn.addEventListener('click', () => {
+      const current = htmlEl.getAttribute('data-theme');
+      applyTheme(current === 'dark' ? 'light' : 'dark');
+    });
+
+    // Mobile Navigation Drawer
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileOverlay = document.getElementById('mobile-nav-overlay');
+    const mobileDrawerClose = document.getElementById('mobile-drawer-close');
+
+    function toggleMobileMenu(open) {
+      if (open) {
+        mobileOverlay.classList.add('open');
+      } else {
+        mobileOverlay.classList.remove('open');
+      }
+    }
+
+    mobileMenuBtn?.addEventListener('click', () => toggleMobileMenu(true));
+    mobileDrawerClose?.addEventListener('click', () => toggleMobileMenu(false));
+    mobileOverlay?.addEventListener('click', (e) => {
+      if (e.target === mobileOverlay) toggleMobileMenu(false);
+    });
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => toggleMobileMenu(false));
+    });
+
+    // Showcase Gallery Tabs
+    const showcaseTabs = document.querySelectorAll('.showcase-tab-btn');
+    const showcaseImg = document.getElementById('showcase-main-img');
+    const showcaseHeadline = document.getElementById('showcase-headline');
+    const showcaseBody = document.getElementById('showcase-body');
+
+    showcaseTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        showcaseTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        const shot = tab.getAttribute('data-shot');
+        const title = tab.getAttribute('data-title');
+        const desc = tab.getAttribute('data-desc');
+
+        showcaseImg.src = 'assets/screenshots/' + shot;
+        showcaseHeadline.textContent = title;
+        showcaseBody.textContent = desc;
+      });
+    });
+
+    // FAQ Accordion
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const btn = item.querySelector('.faq-question-btn');
+      btn.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+        faqItems.forEach(i => i.classList.remove('active'));
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
